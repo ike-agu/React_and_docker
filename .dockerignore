@@ -1,0 +1,9 @@
+# files we don't want to copy to docker container
+
+/node_modules
+.Dockerfile
+.git
+.gitignore
+.dockerignore
+.env
+
