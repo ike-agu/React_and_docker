@@ -1,12 +1,5 @@
+# this docker compose file is incase we have many other containers , we can all bring them in here and run them with 1 file.
+
 version: '3'
 services:
   my-react-app:
-    build:
-      context: .
-      dockerfile: Dockerfile.dev
-    ports:
-      - "3000:3000"
-    volumes:
-      - ./src:/app/src
-    environment:
-      - REACT_APP_NAME=ikenna

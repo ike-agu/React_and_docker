@@ -1,3 +1,5 @@
+# original configuration and backup
+
 version: '3'
 services:
   my-react-app:
