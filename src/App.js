@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>this is my landing page and I am ready to go  </h1>
+      <h1>Docker compose is on   </h1>
 
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
